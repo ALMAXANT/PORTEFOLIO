@@ -1,0 +1,44 @@
+body {
+    background-color: black; /* Le fond de la page sera noir */
+    color: white; /* Le texte de la page sera blanc */
+    background-image: url(img/Code1.jpg);
+    background-attachment: fixed;
+    background-position: top;
+}
+
+title {
+
+    
+}
+ul {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-top: 0px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+   
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 18px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* Change la couleur du lien  */
+li a:hover {
+    background-color: #111;
+}
